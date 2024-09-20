@@ -1,0 +1,59 @@
+#username{
+    margin-left: 10px;
+}
+
+#password{
+    margin-left: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(regback.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    height: 100hv;
+    margin: 0px;
+    margin-right: 25px;
+}
+
+.logo img{
+    height: 100hv;
+    margin: 0px;
+    margin-left: 30px;
+}
+
+button{
+    margin-left: 35%;
+    padding: 5px;
+    background-color: #ffffff;
+    color: blanchedalmond;
+    border-radius: none;
+    border-style: solid;
+    border-color: black;
+}
+
+button:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 3px;
+}

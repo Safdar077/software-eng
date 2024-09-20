@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2691e;
+}
+
+.first{
+    margin-top: 50px;
+    float: right;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.navbar .nav-links li a:hover {
+    text-decoration: blue;
+}
+
+.home page{
+    height: 10px;
+    width: 100%;
+    background: none;
+}
+
+#big{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 6em;
+}
+
+#mid{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+.textbox{
+    background: fff;
+    color: 111;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 20px 35px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+
+}
+
+#para{
+    color:  bisque;
+}
+
+.product{
+    margin-top: 20px;
+}
+
+#product{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #ffffff;
+    color: darkcyan;
+    border-radius: 40px;
+    text-decoration: none;
+    text-transform: none;
+}
